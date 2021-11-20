@@ -1,0 +1,4 @@
+gitlab-ci-runner:
+  hosts:
+    local:
+      ansible_host: runner.example.com
