@@ -2,3 +2,5 @@ gitlab-ci-runner:
   hosts:
     local:
       ansible_host: runner.example.com
+      ansible_connection: ssh
+      ansible_user: ubuntu
